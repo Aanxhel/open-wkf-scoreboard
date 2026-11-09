@@ -1,25 +1,59 @@
-# Godot 4.2+ specific ignores
-~*.dll
-
-# Godot 4+ specific ignores
+# ==========================================
+# Godot Engine (v4+)
+# ==========================================
 .godot/
-.nomedia
-
-# Godot-specific ignores
 .import/
-export.cfg
-export_credentials.cfg
+.nomedia
 *.tmp
 
-# Imported translations (automatically generated from CSV files)
+# Export build configurations & credentials
+export.cfg
+export_credentials.cfg
+
+# Auto-generated translations
 *.translation
 
-# Mono-specific ignores
+# ==========================================
+# C# / .NET / MSBuild
+# ==========================================
+# .NET Build and intermediate directories
+bin/
+obj/
+
+# Mono/Godot C# build caches
 .mono/
 data_*/
 mono_crash.*.json
 
-# Export outputs
+# Build outputs and dynamic libraries
+[Dd]ebug/
+[Rr]elease/
+*.dll
+
+# ==========================================
+# IDEs & Code Editors
+# ==========================================
+# Visual Studio / VSCodium / VS Code
+.vs/
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.user
+*.userosv
+*.suo
+*.userprefs
+
+# JetBrains Rider / ReSharper
+.idea/
+*.sln.docstates
+
+# ==========================================
+# Executables & Packaged Exports
+# ==========================================
 *.exe
-# Uncomment if your project does not version PCK files as runtime dependencies.
-# *.pck
+*.elf
+*.app
+*.apk
+*.aab
+*.pck
