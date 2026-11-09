@@ -7,4 +7,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [0.1.0] - 2026-11-09
 ### [add]
-## [HU-GODOT-SCOREBOARD]() - se agrega proyecto base.
+## [HU-GODOT-SCOREBOARD](https://github.com/Aanxhel/open-wkf-scoreboard/tree/develop) - se agrega proyecto base.
